@@ -6,7 +6,7 @@
 
 ---
 
-## **认识Redis**
+## 初识Redis
 
 * #### 什么是Redis
 * #### 有什么优势
@@ -44,7 +44,9 @@
 * ### 内存考虑
 * ### 缓存穿透
 * ### 性能考虑
-* [https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html](https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html)
+
+  * [https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html](https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html)
+
 * ### 数据安全
 
   * #### _连接密码_
