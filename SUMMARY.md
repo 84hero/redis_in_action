@@ -2,8 +2,8 @@
 
 * [Redis In Action](README.md)
 * [认识Redis](ru-men.md)
-  * 什么是Redis
-  * Redis有什么优势
+  * [什么是Redis](ru-men/shi-yao-shi-redis.md)
+  * [Redis有什么优势](ru-men/redisyou-shi-yao-you-shi.md)
 * 数据类型
   * 字符串
   * 链表
@@ -20,7 +20,7 @@
   * 主从
   * 集群
   * Sentinel
-* 开发规范
+* [开发规范](kai-fa-gui-fan.md)
   * Key命名
   * 超时时间
   * 内存考虑
@@ -46,6 +46,4 @@
   * [电商](dian-shang.md)
     * 秒杀
     * 抢红包
-
-
 
