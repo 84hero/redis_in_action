@@ -47,6 +47,10 @@
   * Top10
   * 排序
   * 分页
+* 电商-SHOP
+  * [锁](#)
+  * [秒杀](ying-yong-chang-jing/miao-sha.md)
+  * 抢红包
 * 社交应用-SNS
   * 快速登录
   * 活跃度
@@ -55,11 +59,4 @@
 * 地理位置-LBS
   * [周边商家](sheng-huo-fu-wu.md)
   * 摇一摇
-* 电商-SHOP
-  * [锁](#)
-
-  * [秒杀](ying-yong-chang-jing/miao-sha.md)
-  * 抢红包
-
-
 
