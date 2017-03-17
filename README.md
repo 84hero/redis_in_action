@@ -2,11 +2,9 @@
 
 自己整理关于Redis的简单介绍及应用场景。
 
-[**GitBook**](#)
+[**GitBook**](https://84hero.gitbooks.io/redis_in_action/)
 
 [**GitHub**](https://github.com/84hero/redis_in_action)
-
-
 
 # **目录**
 
@@ -49,9 +47,7 @@
 * ### 超时时间
 * ### 内存考虑
 * ### 缓存穿透
-
 * ### 性能考虑
-
 * ### 数据安全
 
   * #### _连接密码_
