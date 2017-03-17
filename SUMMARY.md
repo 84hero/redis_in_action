@@ -43,7 +43,9 @@
   * 地理位置
     * [周边商家](sheng-huo-fu-wu.md)
     * 摇一摇
-* [电商](dian-shang.md)
-* 秒杀
-* 抢红包
+  * [电商](dian-shang.md)
+    * 秒杀
+    * 抢红包
+
+
 
