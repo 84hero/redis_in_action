@@ -1,5 +1,10 @@
 # Summary
 
 * [Redis In Action](README.md)
-* [First Chapter](chapter1.md)
+  * [认识](chapter1.md)
+* 入门
+
+
+
+
 
