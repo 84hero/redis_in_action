@@ -40,8 +40,9 @@
 ## 开发规范
 
 * ### Key命名
-* ### 超时设置
+* ### 超时时间
 * ### 内存考虑
+* ### 数据初始化
 * ### 延迟考虑
 * [https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html](https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html)
 * ### 数据安全
