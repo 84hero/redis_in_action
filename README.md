@@ -48,19 +48,53 @@
 
 ## 开发规范
 
-#### Key命名
+### Key命名
 
-#### 超时设置
+### 超时设置
 
-#### 内存考虑
+### 内存考虑
 
-#### 延迟考虑
+### 延迟考虑
 
-https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html
+[https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html](https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html)
 
+### 数据安全
 
+#### _连接密码_
+
+#### _危险命令_
 
 ## 实战应用
+
+### 用户
+
+#### _登录_
+
+#### _活跃度_
+
+### 内容管理-CMS
+
+#### _点赞_
+
+#### _Top10_
+
+#### _排序_
+
+#### _分页_
+
+### 社交应用-SNS
+
+#### _好友关系_
+
+#### _站内信_
+
+#### _消息订阅_
+
+### 地理位置服务-LBS
+
+
+
+
 
 ---
 

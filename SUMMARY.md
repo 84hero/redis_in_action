@@ -1,3 +1,5 @@
-# Table of content
+# Summary
 
+* [Redis In Action](README.md)
 * [First Chapter](chapter1.md)
+
