@@ -1,6 +1,6 @@
 # Redis In Action
 
-关于Redis的简单介绍及应用场景。
+自己整理关于Redis的简单介绍及应用场景。
 
 # **目录**
 
@@ -42,8 +42,8 @@
 * ### Key命名
 * ### 超时时间
 * ### 内存考虑
-* ### 数据初始化
-* ### 延迟考虑
+* ### 缓存穿透
+* ### 性能考虑
 * [https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html](https://gnuhpc.gitbooks.io/redis-all-about/content/CodeDesignRule/latency.html)
 * ### 数据安全
 
