@@ -3,7 +3,7 @@
 * [Redis In Action](README.md)
 * [初识Redis](ru-men.md)
   * [什么是Redis](ru-men/shi-yao-shi-redis.md)
-  * [Redis有什么优势](ru-men/redisyou-shi-yao-you-shi.md)
+  * [优点](ru-men/redisyou-shi-yao-you-shi.md)
 * 数据类型
   * 字符串
   * 链表
