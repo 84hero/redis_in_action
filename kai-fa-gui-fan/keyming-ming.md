@@ -45,5 +45,13 @@ user:1000:message_receive
 user:1000:message_to
 ```
 
+* 用户Token集合
+
+```
+user_token
+```
+
+
+
 
 
