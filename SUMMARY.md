@@ -12,9 +12,10 @@
 ## Redis基础
 
 * [基本命令](ru-men/ji-ben-ming-ling.md)
-  * [键操作](ru-men/ji-ben-ming-ling/key.md)
-  * s
+  * [Key](ru-men/ji-ben-ming-ling/key.md)
+  * [Server](ru-men/ji-ben-ming-ling/s.md)
 * 数据类类型
+  * [字符串](zi-fu-chuan.md)
   * [链表](lian-biao.md)
   * [哈希表](ha-xi-biao.md)
   * [集合](ji-he.md)
@@ -22,8 +23,6 @@
   * [位图](wei-tu.md)
   * [地理位置](di-li-wei-zhi.md)
   * [HyperLogLog](hyperloglog.md)
-
-* [字符串](zi-fu-chuan.md)
 
 ## 特性
 
@@ -66,6 +65,4 @@
 * 地理位置-LBS
   * [周边商家](sheng-huo-fu-wu.md)
   * 摇一摇
-
-
 
