@@ -18,14 +18,22 @@ Redis HyperLogLog 是用来做基数统计的算法，HyperLogLog 的优点是�
 * 周末
 
 ```
-PFADD weekend Saturday Sunday
+> PFADD weekend Saturday Sunday
 (integer) 1
 ```
 
 * 工作日天数
 
 ```Redis
-PFCOUNT weekday
+> PFCOUNT weekday
+(integer) 5
+```
+
+* 周末天数
+
+```Redis
+> PFCOUNT weekend
+(integer) 2
 ```
 
 
