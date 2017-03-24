@@ -58,7 +58,7 @@
 ## 开发规范
 
 * [Key命名](kai-fa-gui-fan/keyming-ming.md)
-* 超时时间
+* [超时时间](kai-fa-gui-fan/chao-shi-shi-jian.md)
 * 内存考虑
 * 缓存穿透
 * 性能考虑
