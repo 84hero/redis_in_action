@@ -1,6 +1,6 @@
-# Redis In Action
+# Summary
 
-* [简介](README.md)
+* [目录](README.md)
 
 ## 认识Redis
 
@@ -60,6 +60,4 @@
 * [缓存穿透](kai-fa-gui-fan/huan-cun-chuan-tou.md)
 * [性能考虑](kai-fa-gui-fan/xing-neng-kao-lv.md)
 * [数据安全](kai-fa-gui-fan/shu-ju-an-quan.md)
-
-
 
