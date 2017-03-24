@@ -2,37 +2,55 @@
 
 ## Redis In Action
 
-* [简介](README.md)
+[简介](README.md)
 
 ## 认识Redis
 
-* [什么是Redis?](ru-men/shi-yao-shi-redis.md)
-* [Redis有什么优势?](ru-men/redisyou-shi-yao-you-shi.md)
+[什么是Redis?](ru-men/shi-yao-shi-redis.md)
+
+[Redis有什么优势?](ru-men/redisyou-shi-yao-you-shi.md)
 
 ## Redis基础
 
-* [基本命令](ru-men/ji-ben-ming-ling.md)
-  * [Key](ru-men/ji-ben-ming-ling/key.md)
-  * [Server](ru-men/ji-ben-ming-ling/s.md)
-* 数据类类型
-  * [字符串](zi-fu-chuan.md)
-  * [哈希表](ha-xi-biao.md)
-  * [列表](lian-biao.md)
-  * [集合](ji-he.md)
-  * [有序集合](you-xu-ji-he.md)
-  * [地理位置](di-li-wei-zhi.md)
-  * [HyperLogLog](hyperloglog.md)
+[基本命令](ru-men/ji-ben-ming-ling.md)
+
+[Key](ru-men/ji-ben-ming-ling/key.md)
+
+[Server](ru-men/ji-ben-ming-ling/s.md)
+
+数据类类型
+
+[字符串](zi-fu-chuan.md)
+
+[哈希表](ha-xi-biao.md)
+
+[列表](lian-biao.md)
+
+[集合](ji-he.md)
+
+[有序集合](you-xu-ji-he.md)
+
+[地理位置](di-li-wei-zhi.md)
+
+[HyperLogLog](hyperloglog.md)
 
 ## 特性
 
-* 键值通知
-* [发布订阅](te-xing/fa-bu-ding-yue.md)
-* 事务
-* 持久化
-* 脚本执行
-* 主从
-* 集群
-* Sentinel
+键值通知
+
+[发布订阅](te-xing/fa-bu-ding-yue.md)
+
+事务
+
+持久化
+
+脚本执行
+
+主从
+
+集群
+
+Sentinel
 
 ## 应用场景
 
