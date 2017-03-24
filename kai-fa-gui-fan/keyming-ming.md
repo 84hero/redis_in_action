@@ -24,7 +24,7 @@
 * 用户id为1000的密码
 
 ```Redis
-
+user:1000:password
 ```
 
 
