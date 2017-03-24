@@ -52,6 +52,7 @@
   * Top10
   * 排序
   * 分页
+  * 独立IP
 * 电商-SHOP
   * [锁](#)
   * [秒杀](ying-yong-chang-jing/miao-sha.md)
