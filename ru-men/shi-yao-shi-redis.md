@@ -4,7 +4,7 @@ Redis内置**主从复制**，[Lua脚本](https://redis.io/commands/eval)，[LRU
 
 您可以对这些类型运行**原子操作**，例如**附加到字符串，**在**哈希中增加值，**将**元素推送到列表中，**计算集**交集、唯一、差异，**在**排序集中获得最高排名的成员**。
 
-为了实现其出色的性能，Redis使用**内存中的数据集**。根据您的用例，您可以通过将数据集一次性[转储到磁盘](https://redis.io/topics/persistence#snapshotting)\(**snapshotting**\)，或通过[将每个命令附加到日志](https://redis.io/topics/persistence#append-only-file)\(**append-only-file**\)来持久化。如果您只需要功能丰富的网络内存缓存，则可以选择禁用持久性。
+为了实现其出色的性能，Redis使用**内存中的数据集**。根据应用场景，您可以通过将数据集一次性[转储到磁盘](https://redis.io/topics/persistence#snapshotting)\(**snapshotting**\)，或通过[将每个命令附加到日志](https://redis.io/topics/persistence#append-only-file)\(**append-only-file**\)来持久化。如果您只需要功能丰富的网络内存缓存，则可以选择禁用持久性。
 
 Redis还支持简单到设置的[主从异步复制](https://redis.io/topics/replication)，非常快速的非阻塞第一次同步，自动重新连接，在网络分割上部分重新同步。
 
