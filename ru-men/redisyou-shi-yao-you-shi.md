@@ -24,9 +24,7 @@
 * 是否发布和订阅（pub / sub）功能用于您的应用程序？如果是这样，请使用**Redis。**
 * 您的密钥存储库的持久性是否重要？如果是这样，请使用**Redis**。
 
-
-
-### 评测
+### 对比评测
 
 * [Redis作者关于Redis与Memcached的对比](http://antirez.com/news/94)
 * [Redis、Memcached、MongoDB系统属性对比](http://db-engines.com/en/system/Memcached%3BMongoDB%3BRedis)
