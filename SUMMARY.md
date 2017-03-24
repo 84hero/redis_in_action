@@ -9,16 +9,21 @@
 * [什么是Redis?](ru-men/shi-yao-shi-redis.md)
 * [Redis有什么优势?](ru-men/redisyou-shi-yao-you-shi.md)
 
-## 数据类型
+## Redis基础
+
+* [基本命令](ru-men/ji-ben-ming-ling.md)
+  * [键操作](ru-men/ji-ben-ming-ling/key.md)
+  * s
+* 数据类类型
+  * [链表](lian-biao.md)
+  * [哈希表](ha-xi-biao.md)
+  * [集合](ji-he.md)
+  * [有序集合](you-xu-ji-he.md)
+  * [位图](wei-tu.md)
+  * [地理位置](di-li-wei-zhi.md)
+  * [HyperLogLog](hyperloglog.md)
 
 * [字符串](zi-fu-chuan.md)
-* [链表](lian-biao.md)
-* [哈希表](ha-xi-biao.md)
-* [集合](ji-he.md)
-* [有序集合](you-xu-ji-he.md)
-* 位图
-* [地理位置](di-li-wei-zhi.md)
-* [HyperLogLog](hyperloglog.md)
 
 ## 特性
 
@@ -61,4 +66,6 @@
 * 地理位置-LBS
   * [周边商家](sheng-huo-fu-wu.md)
   * 摇一摇
+
+
 
