@@ -27,5 +27,11 @@
 user:1000:password
 ```
 
+用户id为1000的用户信息
+
+```Redis
+user:1000:info
+```
+
 
 
