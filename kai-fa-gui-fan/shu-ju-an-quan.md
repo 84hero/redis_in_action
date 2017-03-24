@@ -4,6 +4,8 @@
 
 * 修改Redis配置文件redis.conf
 
+尽量修改redis的配置文件，将服务器绑定IP设置为私有或者特定IP地址
+
 ```Redis
 bind 127.0.0.1
 ```
