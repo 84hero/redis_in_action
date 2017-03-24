@@ -18,7 +18,7 @@
 * [有序集合](you-xu-ji-he.md)
 * 位图
 * [地理位置](di-li-wei-zhi.md)
-* HyperLogLog
+* [HyperLogLog](hyperloglog.md)
 
 ## 特性
 
