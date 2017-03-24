@@ -49,6 +49,9 @@ port 7001
 
 rename-command FLUSHDB 7ac01af7cb91864c1f1d87cda38b5de9
 
+将FLUSHDB命令重命名为7ac01af7cb91864c1f1d87cda38b5de9
+
+
 ```
 
 * ### 禁用
