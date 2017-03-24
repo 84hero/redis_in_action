@@ -8,8 +8,6 @@ Redis HyperLogLog 是用来做基数统计的算法，HyperLogLog 的优点是�
 
 但是，因为 HyperLogLog 只会根据输入元素来计算基数，而不会储存输入元素本身，所以 HyperLogLog 不能像集合那样，返回输入的各个元素。
 
-
-
 * 工作日
 
 ```Redis
@@ -21,6 +19,7 @@ Redis HyperLogLog 是用来做基数统计的算法，HyperLogLog 的优点是�
 
 ```
 PFADD weekend Saturday Sunday
+(integer) 1
 ```
 
 * 工作日天数
@@ -28,8 +27,6 @@ PFADD weekend Saturday Sunday
 ```Redis
 PFCOUNT weekday
 ```
-
-
 
 
 
