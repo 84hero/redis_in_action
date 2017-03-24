@@ -39,5 +39,7 @@ user:1000:info
 user:1000:message_receive
 ```
 
+* 用户发送信息
+
 
 
