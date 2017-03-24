@@ -1,25 +1,44 @@
-* [DEL](http://redisdoc.com/key/del.html)
+* DEL
 
-* [DUMP](http://redisdoc.com/key/dump.html)
-* [EXISTS](http://redisdoc.com/key/exists.html)
-* [EXPIRE](http://redisdoc.com/key/expire.html)
-* [EXPIREAT](http://redisdoc.com/key/expireat.html)
-* [KEYS](http://redisdoc.com/key/keys.html)
-* [MIGRATE](http://redisdoc.com/key/migrate.html)
-* [MOVE](http://redisdoc.com/key/move.html)
-* [OBJECT](http://redisdoc.com/key/object.html)
-* [PERSIST](http://redisdoc.com/key/persist.html)
-* [PEXPIRE](http://redisdoc.com/key/pexpire.html)
-* [PEXPIREAT](http://redisdoc.com/key/pexpireat.html)
-* [PTTL](http://redisdoc.com/key/pttl.html)
-* [RANDOMKEY](http://redisdoc.com/key/randomkey.html)
-* [RENAME](http://redisdoc.com/key/rename.html)
-* [RENAMENX](http://redisdoc.com/key/renamenx.html)
-* [RESTORE](http://redisdoc.com/key/restore.html)
-* [SORT](http://redisdoc.com/key/sort.html)
-* [TTL](http://redisdoc.com/key/ttl.html)
-* [TYPE](http://redisdoc.com/key/type.html)
-* [SCAN](http://redisdoc.com/key/scan.html)
+* DUMP
+
+* EXISTS
+
+* EXPIRE
+
+* EXPIREAT
+
+* KEYS
+
+* MIGRATE
+
+* MOVE
+
+* OBJECT
+
+* PERSIST
+
+* PEXPIRE
+
+* PEXPIREAT
+
+* PTTL
+
+* RANDOMKEY
+
+* RENAME
+
+* RENAMENX
+
+* RESTORE
+
+* SORT
+
+* TTL
+
+* TYPE
+
+* SCAN
 
 
 
