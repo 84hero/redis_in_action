@@ -1,4 +1,4 @@
-[DEL](http://redisdoc.com/key/del.html)
+* [DEL](http://redisdoc.com/key/del.html)
 
 * [DUMP](http://redisdoc.com/key/dump.html)
 * [EXISTS](http://redisdoc.com/key/exists.html)
