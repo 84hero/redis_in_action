@@ -10,8 +10,6 @@
 | **集群** | 不支持 | 支持 |
 |  |  |  |
 
-
-
 ### 选择Memcached还是Redis？
 
 在决定Memcached和Redis之间时，请考虑以下几个问题：
@@ -25,6 +23,13 @@
 * 在内存中排序和排序数据集是否可以帮助您，例如排行榜？如果是这样，请使用**Redis**。
 * 是否发布和订阅（pub / sub）功能用于您的应用程序？如果是这样，请使用**Redis。**
 * 您的密钥存储库的持久性是否重要？如果是这样，请使用**Redis**。
+
+
+
+### 评测
+
+* [Redis作者关于Redis与Memcached的对比](http://antirez.com/news/94)
+* [Redis、Memcached、MongoDB系统属性对比](http://db-engines.com/en/system/Memcached%3BMongoDB%3BRedis)
 
 
 
