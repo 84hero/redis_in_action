@@ -47,6 +47,7 @@ port 7001
 ```
 修改redis.conf
 
+rename-command FLUSHDB 7ac01af7cb91864c1f1d87cda38b5de9
 
 ```
 
