@@ -15,9 +15,9 @@ Redis还支持[主从异步复制](http://redis.io/topics/replication)，并且�
 其他功能包括：
 
 * [事物](https://redis.io/topics/transactions)
-* [Pub / Sub](https://redis.io/topics/pubsub)
+* [发布/](https://redis.io/topics/pubsub)订阅[ ](https://redis.io/topics/pubsub)
 * [Lua脚本](https://redis.io/commands/eval)
-* [钥匙具有有限的生存时间](https://redis.io/commands/expire)
+* [KEY具有有限的生存时间](https://redis.io/commands/expire)
 * [LRU驱逐钥匙](https://redis.io/topics/lru-cache)
 * [自动故障切换](https://redis.io/topics/sentinel)
 
