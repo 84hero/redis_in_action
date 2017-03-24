@@ -1,3 +1,5 @@
+如果你使用过**Memcached，Redis**可以视为一个更复杂的**Memcached**版本。
+
 **Redis**是一个开源的**内存数据结构存储**，用作**数据库**，**缓存**和**消息代理**。它支持丰富的数据结构，例如[字符串](https://redis.io/topics/data-types-intro#strings)\(string\)，[散列](https://redis.io/topics/data-types-intro#hashes)\(hashes\)，[列表](https://redis.io/topics/data-types-intro#lists)\(lists\)，[集合](https://redis.io/topics/data-types-intro#sets)\(sets\)，具有范围查询的[排序集](https://redis.io/topics/data-types-intro#sorted-sets)\(sorted sets\)，[位图](https://redis.io/topics/data-types-intro#bitmaps)\(bitmaps\)，[超文本](https://redis.io/topics/data-types-intro#hyperloglogs)\(HyperLogLogs\)和具有半径查询的[地理空间索引](https://redis.io/commands/geoadd)\(Geo\)。
 
 Redis内置**主从复制**，[Lua脚本](https://redis.io/commands/eval)，[LRU驱逐](https://redis.io/topics/lru-cache)，[事务处理](https://redis.io/topics/transactions)和不同级别的[磁盘持久性](https://redis.io/topics/persistence)，
@@ -32,8 +34,6 @@ Redis以**ANSI C**编写，适用于大多数POSIX系统，如Linux，\* BSD，O
 * Redis官方文档中还有更多的内容。
   [http://redis.io/documentation](http://redis.io/documentation)
 
-
-
 ### 关于作者
 
 Redis作者[**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程序员，大家更习惯称呼他[Antirez](http://antirez.com/)。
@@ -41,11 +41,4 @@ Redis作者[**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程�
 Redis其实只是他的一个副业，以下内容为 Antirez 在 Redis 诞生六周年之际，特意撰写的一篇博文分享了。
 
 [如何看待个人副业项目（side project）与主业项目（main project）之间的关系](http://www.jianshu.com/p/c5a28323d043)。
-
-  
-
-
-
-
-
 
