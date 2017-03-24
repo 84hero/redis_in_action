@@ -58,6 +58,7 @@ rename-command FLUSHDB 7ac01af7cb91864c1f1d87cda38b5de9
 
 ```
 实际上也是重命名
+
 rename-command FLUSHDB ""
 
 将FLUSHDB命令重命名为空字符串
