@@ -17,7 +17,7 @@
 * 数据类类型
   * [字符串](zi-fu-chuan.md)
   * [哈希表](ha-xi-biao.md)
-  * [链表](lian-biao.md)
+  * [列表](lian-biao.md)
   * [集合](ji-he.md)
   * [有序集合](you-xu-ji-he.md)
   * [地理位置](di-li-wei-zhi.md)
