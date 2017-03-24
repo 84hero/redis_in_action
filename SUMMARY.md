@@ -43,7 +43,7 @@
   * 分页
   * 独立IP
 * 电商-SHOP
-  * [锁](#)
+  * 锁
   * [秒杀](ying-yong-chang-jing/miao-sha.md)
   * 抢红包
 * 社交应用-SNS
