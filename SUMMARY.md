@@ -1,6 +1,4 @@
-# Summary
-
-## Redis In Action
+# Redis In Action
 
 * [简介](README.md)
 
