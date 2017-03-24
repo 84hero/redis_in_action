@@ -20,7 +20,6 @@
   * [哈希表](ha-xi-biao.md)
   * [集合](ji-he.md)
   * [有序集合](you-xu-ji-he.md)
-  * [位图](wei-tu.md)
   * [地理位置](di-li-wei-zhi.md)
   * [HyperLogLog](hyperloglog.md)
 
