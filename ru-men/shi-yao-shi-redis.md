@@ -2,7 +2,7 @@ Redis通常被称为_数据结构_服务器。这意味着Redis通过一组命�
 
 Redis中实现的数据结构有一些特殊属性：
 
-* Redis最终将它们存储在磁盘上，即使它们始终在服务器内存中读取、修改。这意味着Redis很快，但也是非易失性的。
+* 虽然它们始终在服务器内存中读取、修改，Redis最终希望将它们存储在磁盘上，这意味着Redis很快，但也是非易失性的。
 * 数据结构的实现强调内存效率，因此与使用高级编程语言建模的相同数据结构相比，Redis内部的数据结构可能会使用更少的内存。
 * Redis提供了许多在数据库中自然找到的功能，如复制，可调节级别的耐用性，集群，高可用性。
 
@@ -18,10 +18,6 @@ Redis中实现的数据结构有一些特殊属性：
   [http://redis.io/commands](http://redis.io/commands)
 * Redis官方文档中还有更多的内容。
   [http://redis.io/documentation](http://redis.io/documentation)
-
-
-
-
 
 Redis是一个开源（BSD许可），内存**数据结构存储**，用作**数据库**，**缓存**和**消息代理**。它支持数据结构，例如[字符串](https://redis.io/topics/data-types-intro#strings)\(string\)，[散列](https://redis.io/topics/data-types-intro#hashes)\(hashes\)，[列表](https://redis.io/topics/data-types-intro#lists)\(lists\)，[集合](https://redis.io/topics/data-types-intro#sets)\(sets\)，具有范围查询的[排序集](https://redis.io/topics/data-types-intro#sorted-sets)\(sorted sets\)，[位图](https://redis.io/topics/data-types-intro#bitmaps)\(bitmaps\)，[超文本](https://redis.io/topics/data-types-intro#hyperloglogs)\(HyperLogLogs\)和具有半径查询的[地理空间索引](https://redis.io/commands/geoadd)\(Geo\)。Redis内置[复制](https://redis.io/topics/replication)，[Lua脚本](https://redis.io/commands/eval)，[LRU驱逐](https://redis.io/topics/lru-cache)，[事务处理](https://redis.io/topics/transactions)和不同级别的[磁盘持久性](https://redis.io/topics/persistence)，
 
