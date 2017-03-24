@@ -27,10 +27,16 @@
 user:1000:password
 ```
 
-用户id为1000的用户信息
+* 用户id为1000的用户信息
 
 ```Redis
 user:1000:info
+```
+
+* 用户收到的信息
+
+```Redis
+user:1000:message_receive
 ```
 
 
