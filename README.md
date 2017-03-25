@@ -1,16 +1,19 @@
-# Redis In Action
+# Amazing Redis
 
-自己整理关于Redis的简单介绍及应用场景。
+本文将通过实例和应用场景，带你熟悉和应用Redis。
 
 [**GitBook**](https://84hero.gitbooks.io/redis_in_action/)
 
 # Topic
 
-1. ## 认识Redis
-2. ## 数据类型
-3. ## 特性
-4. ## 开发规范
-5. ## 应用场景
+* ### Redis介绍
+* ### Redis基础
+* ### 特性
+
+* ### 应用场景
+* ### 开发规范
+
+  ### 
 
 
 
