@@ -1,5 +1,7 @@
 # Amazing Redis
 
+![](/assets/p1432653421.74.png)
+
 本文将通过实例和应用场景，带你熟悉和应用Redis。
 
 [**GitBook**](https://84hero.gitbooks.io/redis_in_action/)
