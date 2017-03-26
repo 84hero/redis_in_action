@@ -7,7 +7,7 @@
 ## 认识Redis
 
 * [什么是Redis?](ru-men/shi-yao-shi-redis.md)
-* [Redis有什么优势?](ru-men/redisyou-shi-yao-you-shi.md)
+* [与Memcached对比](ru-men/redisyou-shi-yao-you-shi.md)
 
 ## Redis基础
 
