@@ -1,4 +1,4 @@
-# Redis 
+# Redis
 
 **Redis**是一个开源的**内存数据结构存储**，用作**数据库**，**缓存**和**消息代理**。
 
@@ -38,7 +38,7 @@ Redis以**ANSI C**编写，适用于大多数POSIX系统，如Linux，\* BSD，O
 * Redis官方文档中还有更多的内容。
   [http://redis.io/documentation](http://redis.io/documentation)
 
-### 关于作者
+### Redis作者
 
 Redis作者[**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程序员，大家更习惯称呼他[Antirez](http://antirez.com/)。
 
