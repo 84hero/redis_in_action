@@ -30,7 +30,7 @@ port 7001
 
 * ##### Auth验证
 
-修改redis.conf配置AUTH项，开启Redis密码访问
+修改redis.conf配置requirepass项，开启Redis密码访问
 
 * ##### 密码复杂度
 
