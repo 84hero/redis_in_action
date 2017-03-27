@@ -18,5 +18,7 @@
 
   ### 
 
+### [开始阅读](/ru-men/shi-yao-shi-redis.md)
+
 
 
