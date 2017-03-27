@@ -23,7 +23,7 @@
   * [地理位置](di-li-wei-zhi.md)
   * [HyperLogLog](hyperloglog.md)
 
-## 特性
+## 产品特性
 
 * 键值通知
 * [发布订阅](te-xing/fa-bu-ding-yue.md)
