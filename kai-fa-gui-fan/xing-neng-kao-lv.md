@@ -19,16 +19,16 @@
 以一种优雅的方式引入 Hashes 吧。 Hashes 将会带给你一种前所未有的体验。尽可能的少使用下面的 KEY 结构。
 
 ```Redis
-user:1000:username
-user:1000:email
-user:1000:mobile
+user:1000:username user1
+user:1000:email user1@qq.com
+user:1000:mobile 13888888888
 ```
 
 使用 Hashes 代替吧，你会发现，一个 KEY 就够了。
 
 ```
-user_info:1 
-
+HSET user_info:1000 username user1
+HMSET user_info:1000 email user1@qq.com mobile 13888888888
 ```
 
 
