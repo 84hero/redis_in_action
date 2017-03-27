@@ -2,6 +2,8 @@
 
 ![](/assets/p1432653421.74.png)
 
+Amazing redis, not only for Cache!
+
 本书将通过实例和应用场景，带你快速上手Redis。
 
 关于应用场景更多的只是介绍Redis在场景中扮演的角色以及实现的思路。
