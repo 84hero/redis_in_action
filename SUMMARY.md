@@ -2,7 +2,7 @@
 
 ## Amazing Redis
 
-* [目录](README.md)
+* [简介](README.md)
 
 ## 认识Redis
 
