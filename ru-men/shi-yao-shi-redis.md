@@ -46,5 +46,21 @@
 >
 > [如何看待个人副业项目（side project）与主业项目（main project）之间的关系](http://www.jianshu.com/p/c5a28323d043)。
 
+# 谁在用Redis?
+
+使用Redis的知名公司名单
+
+> * [推特](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter)
+> * [GitHub](https://github.com/blog/530-how-we-made-github-fast)
+> * [微博](http://www.xdata.me/?p=353)
+> * [Pinterest](http://engineering.pinterest.com/post/55272557617/building-a-follower-model-from-scratch)
+> * [Snapchat](https://twitter.com/robustcloud/status/448503100056535040)
+> * [Craigslist](http://blog.zawodny.com/2011/02/26/redis-sharding-at-craigslist/)
+> * [掘客](http://nosql.mypopescu.com/post/3342598062/redis-at-digg-story-view-counts)
+> * [StackOverflow](http://meta.stackoverflow.com/questions/69164/does-stackoverflow-use-caching-and-if-so-how/69172)
+> * [Flickr](http://code.flickr.com/blog/2011/10/11/talk-real-time-updates-on-the-cheap-for-fun-and-profit/)
+
+还有更多**！**[techstacks.io](http://techstacks.io/)维护着[使用Redis的热门网站](http://techstacks.io/tech/redis)列表。
+
 
 
