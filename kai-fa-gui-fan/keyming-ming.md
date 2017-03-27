@@ -74,7 +74,6 @@
 >
 > ```
 > user_token
->
 > open:user_token
 > server:user_token
 > ```
