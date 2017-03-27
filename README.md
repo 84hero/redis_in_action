@@ -8,7 +8,7 @@
 
 本书不涉及Redis安装部署、集群等相关配置介绍。
 
-如果您发现内容有误或者关于Redis应用场景，欢迎提交Pull Request。
+如果您发现内容有误或者分享关于Redis应用场景，欢迎提交Pull Request。
 
 [**GitBook**](https://84hero.gitbooks.io/redis_in_action/)
 
