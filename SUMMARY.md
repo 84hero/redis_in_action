@@ -14,7 +14,7 @@
 * [基本命令](ru-men/ji-ben-ming-ling.md)
   * [Key](ru-men/ji-ben-ming-ling/key.md)
   * [Server](ru-men/ji-ben-ming-ling/s.md)
-* 数据类类型
+* [数据类类型](ru-men/shu-ju-lei-lei-xing.md)
   * [字符串](zi-fu-chuan.md)
   * [哈希表](ha-xi-biao.md)
   * [列表](lian-biao.md)
