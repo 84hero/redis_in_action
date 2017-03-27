@@ -1,4 +1,8 @@
-# ![](/assets/p1432653421.74.png)什么Redis?
+# 什么是Redis?
+
+---
+
+### Redis
 
 > **Redis**是一个开源的**内存数据结构存储**，用作**数据库**，**缓存**和**消息代理**。
 >
@@ -38,7 +42,7 @@
 * Redis官方文档中还有更多的内容。
   [http://redis.io/documentation](http://redis.io/documentation)
 
-## Redis作者
+### Redis作者
 
 > Redis作者[**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程序员，大家更习惯称呼他[Antirez](http://antirez.com/)。
 >
@@ -46,7 +50,7 @@
 >
 > [如何看待个人副业项目（side project）与主业项目（main project）之间的关系](http://www.jianshu.com/p/c5a28323d043)。
 
-# 谁在用Redis?
+### 谁在用Redis?
 
 使用Redis的知名公司名单
 
@@ -61,6 +65,4 @@
 > * [Flickr](http://code.flickr.com/blog/2011/10/11/talk-real-time-updates-on-the-cheap-for-fun-and-profit/)
 
 还有更多**！**[techstacks.io](http://techstacks.io/)维护着[使用Redis的热门网站](http://techstacks.io/tech/redis)列表。
-
-
 
