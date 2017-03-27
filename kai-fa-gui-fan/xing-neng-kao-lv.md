@@ -48,7 +48,7 @@
 
 #### 尽可能使用 Hashes
 
-> 尽可能使用 Hashes 吧。 Hashes 将会带给你一种前所未有的体验。尽可能的少使用下面的 KEY 结构。
+> 尽可能使用 Hashes 吧。 Hashes 将会带给你一种前所未有的体验。尽可能的少使用下面的 KEY 结构，减少 KEY 数量。
 >
 > ```Redis
 > user:1000:username user1
