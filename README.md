@@ -8,7 +8,7 @@
 
 [**GitBook**](https://84hero.gitbooks.io/redis_in_action/)
 
-# Topic
+# 主要内容
 
 * #### Redis介绍
 * #### Redis基础
