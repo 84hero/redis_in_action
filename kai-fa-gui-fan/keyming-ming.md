@@ -86,7 +86,7 @@
 > * 用户收到的信息
 >
 > ```Redis
-> user:1000:message_receive
+> user:1000:message.receive
 > ```
 >
 > * 用户发送信息
