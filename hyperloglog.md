@@ -1,4 +1,6 @@
-# Redis HyperLogLog
+# 超文本 HyperLogLog
+
+---
 
 Redis 在 2.8.9 版本添加了 HyperLogLog 结构。
 
