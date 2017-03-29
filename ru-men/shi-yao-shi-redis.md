@@ -14,20 +14,24 @@ _**\*\***_\# Redis简介
 >
 > 为了实现其出色的性能，Redis使用**内存中的数据集**。根据应用场景，可以通过将数据集一次性[转储到磁盘](https://redis.io/topics/persistence#snapshotting)\(**snapshotting**\)，或通过[将每个命令附加到日志](https://redis.io/topics/persistence#append-only-file)\(**append-only-file**\)来持久化。如果您只需要功能丰富的网络内存缓存，则可以选择禁用持久性。
 >
-> Redis还支持[主从异步复制](http://redis.io/topics/replication)，并且配置起来很简单，首次同步就能无阻塞、快速完成，在网络断开的时候还支持部分再同步的自动重连。
+> Redis还支持[异步主从复制](http://redis.io/topics/replication)，配置十分简单，首次同步就能无阻塞、快速完成，在网络断开后，还支持自动重连差异同步。
 >
 > 其他功能包括：
 >
-> * [事物](https://redis.io/topics/transactions)
-> * [发布/](https://redis.io/topics/pubsub)订阅[ ](https://redis.io/topics/pubsub)
+> * [事务](https://redis.io/topics/transactions)
+> * [发布/订阅](https://redis.io/topics/pubsub)
 > * [Lua脚本](https://redis.io/commands/eval)
 > * [KEY具有有限的生存时间](https://redis.io/commands/expire)
 > * [LRU驱逐KEY](https://redis.io/topics/lru-cache)
 > * [自动故障切换](https://redis.io/topics/sentinel)
 >
-> 您可以使用[大多数编程语言的](https://redis.io/clients)Redis。
+> 您可以使用[大多数编程语言的](https://redis.io/clients) Redis 扩展接口。
 >
-> Redis以**ANSI C**编写，适用于大多数POSIX系统，如Linux，\* BSD，OS X，无需外部依赖。Linux和OS X是Redis开发和测试的两个操作系统，我们**建议您使用Linux进行部署**。Redis可能在Solaris系统（如SmartOS）中工作，但支持是_尽力而为_。没有Windows平台的官方支持，但是微软开发并维护了RedisWin-64端。
+> Redis以 **ANSI C **编写，适用于大多数 POSIX 系统，如 Linux，\* BSD，OS X，无需外部依赖。
+>
+> Linux 和 OS X 是 Redis 开发和测试的两个操作系统，我们**建议您使用 Linux 进行部署**。
+>
+> 没有Windows平台的官方支持，但是微软开发并维护了RedisWin-64端。
 
 如果你想了解更多，这是一个选定的起点列表：
 
