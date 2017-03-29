@@ -2,9 +2,16 @@
 
 ---
 
-### [官方英文原版](https://redis.io/commands)
+# 文档
 
-### [中文版翻译版](http://redisdoc.com/)
+- ** 官方英文原版 ** 
+
+    [https://redis.io/commands](https://redis.io/commands)
+
+- ** 中文版翻译版 ** 
+
+    [http://redisdoc.com/](http://redisdoc.com/)
+
 
 
 
