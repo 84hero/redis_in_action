@@ -11,7 +11,7 @@
 | **主从复制** | 不支持 | 支持 |
 | **集群** | 不支持 | 支持 |
 
-## 选择Memcached还是Redis？
+## 选择 Memcached还是 Redis？
 
 在决定使用 Memcached 和 Redis 之间时，请考虑以下几个问题：
 
