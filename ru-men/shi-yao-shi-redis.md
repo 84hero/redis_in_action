@@ -35,13 +35,13 @@ _**\*\***_\# Redis简介
 
 如果你想了解更多，这是一个选定的起点列表：
 
-* Redis数据类型简介
+* Redis 数据类型简介
   [http://redis.io/topics/data-types-intro](http://redis.io/topics/data-types-intro)
-* 直接在浏览器中试用Redis。
+* 直接在浏览器中试用 Redis。
   [http://try.redis.io](http://try.redis.io/)
-* Redis命令的完整列表。
+* Redis 命令的完整列表。
   [http://redis.io/commands](http://redis.io/commands)
-* Redis官方文档中还有更多的内容。
+* Redis 官方文档中还有更多的内容。
   [http://redis.io/documentation](http://redis.io/documentation)
 
 ### Redis作者
