@@ -12,7 +12,7 @@ KEYS name*
 KEYS user?
 ```
 
-有3个通配符 _, ? ,\[\]+        
+有3个通配符 _, ? ,\[\]+          
 _: 通配任意多个字符  
 ?: 通配单个字符  
 \[\]: 通配括号内的某1个字符
@@ -31,13 +31,7 @@ DEL key2 key3 keyN
 EXISTS key1
 
 EXISTS key2 key3 keyN
-
 ```
-
-
-
-  
-
 
 * EXPIRE
 
