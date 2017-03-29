@@ -20,9 +20,9 @@ _**\*\***_\# Redis简介
 >
 > * [事务](https://redis.io/topics/transactions)
 > * [发布/订阅](https://redis.io/topics/pubsub)
-> * [Lua脚本](https://redis.io/commands/eval)
-> * [KEY具有有限的生存时间](https://redis.io/commands/expire)
-> * [LRU驱逐KEY](https://redis.io/topics/lru-cache)
+> * [Lua 脚本](https://redis.io/commands/eval)
+> * [KEY 具有有限的生存时间](https://redis.io/commands/expire)
+> * [LRU 驱逐 KEY](https://redis.io/topics/lru-cache)
 > * [自动故障切换](https://redis.io/topics/sentinel)
 >
 > 您可以使用[大多数编程语言的](https://redis.io/clients) Redis 扩展接口。
