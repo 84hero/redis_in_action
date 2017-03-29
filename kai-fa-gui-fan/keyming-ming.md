@@ -57,9 +57,8 @@
 
 >多个业务共同使用一个 Redis 数据库实例的时候，为避免键值冲突、覆盖，建议每个应用使用独立的 KEY 前缀
 > ```
-> user_token
-> open:user_token
-> server:user_token
+> open:user-token
+> crm:user:1000:message.to
 > ```
 
 
@@ -93,7 +92,7 @@
 > * 用户发送信息
 >
 > ```
-> user:1000:message_to
+> user:1000:message.to
 > ```
 >
 > * 用户Token集合
