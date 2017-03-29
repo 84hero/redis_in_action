@@ -54,7 +54,7 @@ _**\*\***_\# Redis简介
 
 ### 谁在用Redis?
 
-使用Redis的知名公司名单
+使用 Redis 的知名公司名单
 
 > * [推特](http://www.infoq.com/presentations/Real-Time-Delivery-Twitter)
 > * [GitHub](https://github.com/blog/530-how-we-made-github-fast)
