@@ -2,14 +2,14 @@
 
 ## Amazing Redis
 
-* [简介](README.md)
+* [关于本书](README.md)
 
-## 认识Redis
+## 简介
 
 * [redis简介](ru-men/shi-yao-shi-redis.md)
 * [与Memcached对比](ru-men/redisyou-shi-yao-you-shi.md)
 
-## Redis基础
+## 基础
 
 * [基本命令](ru-men/ji-ben-ming-ling.md)
   * [Key](ru-men/ji-ben-ming-ling/key.md)
@@ -23,7 +23,7 @@
   * [地理位置](di-li-wei-zhi.md)
   * [HyperLogLog](hyperloglog.md)
 
-## 产品特性
+## 进阶
 
 * 键值通知
 * [发布订阅](te-xing/fa-bu-ding-yue.md)
