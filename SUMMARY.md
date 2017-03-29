@@ -34,7 +34,7 @@
 * 集群
 * Sentinel
 
-## 应用场景
+## 场景
 
 * 内容管理-CMS
   * 点赞
@@ -55,7 +55,7 @@
   * [周边商家](sheng-huo-fu-wu.md)
   * 摇一摇
 
-## 开发规范
+## 规范
 
 * [键命名](kai-fa-gui-fan/keyming-ming.md)
 * [性能考虑](kai-fa-gui-fan/xing-neng-kao-lv.md)
