@@ -6,7 +6,7 @@
 
 ## 简介
 
-* [redis简介](ru-men/shi-yao-shi-redis.md)
+* [Redis简介](ru-men/shi-yao-shi-redis.md)
 * [与Memcached对比](ru-men/redisyou-shi-yao-you-shi.md)
 
 ## 基础
