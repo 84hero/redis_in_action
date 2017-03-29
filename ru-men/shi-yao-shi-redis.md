@@ -46,9 +46,9 @@ _**\*\***_\# Redis简介
 
 ### Redis作者
 
-> Redis作者[**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程序员，大家更习惯称呼他[Antirez](http://antirez.com/)。
+> Redis 作者 [**Salvatore Sanfilippo**](http://invece.org/)，一名意大利程序员，大家更习惯称呼他 [Antirez](http://antirez.com/)。
 >
-> Redis其实只是他的一个副业，以下链接为 Antirez 在 Redis 诞生六周年之际，特意撰写的一篇博文分享。
+> Redis 其实只是他的一个副业，下面链接是 Antirez 在 Redis 诞生六周年之际，特意撰写了一篇关于主业与副业的博文分享。
 >
 > [如何看待个人副业项目（side project）与主业项目（main project）之间的关系](http://www.jianshu.com/p/c5a28323d043)。
 
