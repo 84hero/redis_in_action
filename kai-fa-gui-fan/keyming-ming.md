@@ -43,8 +43,9 @@
 >
 > ```
 > user-token
+> user_token
 > user:1000:message.to
-> user:1000:message.receive
+> user:1000:message_receive
 > 
 >```
 
