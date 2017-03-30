@@ -55,6 +55,7 @@ QUEUED
 1) (integer) 1
 2) (integer) 1
 ```
+
 EXEC 命令的回复是一个数组， 数组中的每个元素都是执行事务中的命令所产生的回复。 其中， 回复元素的先后顺序和命令发送的先后顺序一致。
 
 当客户端处于事务状态时， 所有传入的命令都会返回一个内容为 QUEUED 的状态回复（status reply）， 这些被入队的命令将在 EXEC 命令被调用时执行。
@@ -77,7 +78,6 @@ EXEC 命令的回复是一个数组， 数组中的每个元素都是执行事�
 从协议的角度来看这个问题，会更容易理解一些。 以下例子中， LPOP 命令的执行将出错， 尽管调用它的语法是正确的：
 
 ```
-
 Trying 127.0.0.1...
 Connected to localhost.
 Escape character is '^]'.
@@ -97,5 +97,20 @@ EXEC
 *2
 +OK
 -ERR Operation against a key holding the wrong kind of value
+```
+
+[EXEC](http://redisdoc.com/transaction/exec.html#exec)返回两条批量回复（bulk reply）： 第一条是`OK`，而第二条是`-ERR`。 至于怎样用合适的方法来表示事务中的错误， 则是由客户端自己决定的。
+
+最重要的是记住这样一条， 即使事务中有某条/某些命令执行失败了， 事务队列中的其他命令仍然会继续执行 —— Redis 不会停止执行事务中的命令。
+
+以下例子展示的是另一种情况， 当命令在入队时产生错误， 错误会立即被返回给客户端：
 
 ```
+MULTI
++OK
+
+INCR a b c
+-ERR wrong number of arguments for 'incr' command
+
+```
+
