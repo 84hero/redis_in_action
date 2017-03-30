@@ -23,3 +23,19 @@ numkeys 参数用于指定键名参数的个数。
 4) "second"
 
 ```
+
+其中 "return {KEYS[1],KEYS[2],ARGV[1],ARGV[2]}" 是被求值的 Lua 脚本，数字 2 指定了键名参数的数量， key1 和 key2 是键名参数，分别使用 KEYS[1] 和 KEYS[2] 访问，而最后的 first 和 second 则是附加参数，可以通过 ARGV[1] 和 ARGV[2] 访问它们。
+
+在 Lua 脚本中，可以使用两个不同函数来执行 Redis 命令，它们分别是：
+
+redis.call()
+redis.pcall()
+这两个函数的唯一区别在于它们使用不同的方式处理执行命令所产生的错误，在后面的『错误处理』部分会讲到这一点。
+
+redis.call() 和 redis.pcall() 两个函数的参数可以是任何格式良好(well formed)的 Redis 命令：
+
+```
+> eval "return redis.call('set','foo','bar')" 0
+OK
+
+```
