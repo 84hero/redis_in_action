@@ -1,4 +1,5 @@
 # Sentinel
+---
 
 Redis 的 Sentinel 系统用于管理多个 Redis 服务器（instance）， 该系统执行以下三个任务：
 

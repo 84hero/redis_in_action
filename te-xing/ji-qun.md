@@ -1,4 +1,5 @@
 # Redis 集群
+---
 
 Redis 集群是一个可以在多个 Redis 节点之间进行数据共享的设施（installation）。
 
