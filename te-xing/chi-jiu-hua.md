@@ -56,5 +56,9 @@ Redis 提供了多种不同级别的持久化方式：
 >
 > 有很多用户都只使用 AOF 持久化， 但我们并不推荐这种方式： 因为定时生成 RDB 快照（snapshot）非常便于进行数据库备份， 并且 RDB 恢复数据集的速度也要比 AOF 恢复的速度要快， 除此之外， 使用 RDB 还可以避免之前提到的 AOF 程序的 bug 。
 
+# 更多快照问题克查看一下文档
 
+[https://redis.io/topics/persistence](https://redis.io/topics/persistence)
+
+[http://redisdoc.com/topic/persistence.html](http://redisdoc.com/topic/persistence.html)
 
