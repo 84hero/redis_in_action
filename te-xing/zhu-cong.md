@@ -23,6 +23,6 @@ Redis 使用异步复制。 从 Redis 2.8 开始， 从服务器会以每秒一�
 可以通过复制功能来让主服务器免于执行持久化操作： 只要关闭主服务器的持久化功能， 然后由从服务器去执行持久化操作即可。
 
 
-## 更多主从配置
+## 更多主从配置信息
 
 [http://redisdoc.com/topic/replication.html](http://redisdoc.com/topic/replication.html)
