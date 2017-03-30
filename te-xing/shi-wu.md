@@ -31,3 +31,31 @@
 
 从 2.2 版本开始，Redis 还可以通过乐观锁（optimistic lock）实现 CAS （check-and-set）操作，具体信息请参考文档的后半部分。
 
+## 用法
+
+[MULTI](http://redisdoc.com/transaction/multi.html#multi)命令用于开启一个事务，它总是返回`OK`。
+
+[MULTI](http://redisdoc.com/transaction/multi.html#multi)执行之后， 客户端可以继续向服务器发送任意多条命令， 这些命令不会立即被执行， 而是被放到一个队列中， 当[EXEC](http://redisdoc.com/transaction/exec.html#exec)命令被调用时， 所有队列中的命令才会被执行。
+
+另一方面， 通过调用[DISCARD](http://redisdoc.com/transaction/discard.html#discard)， 客户端可以清空事务队列， 并放弃执行事务。
+
+以下是一个事务例子， 它原子地增加了`foo`和`bar`两个键的值：
+
+```
+> MULTI
+OK
+
+> INCR foo
+QUEUED
+
+> INCR bar
+QUEUED
+
+> EXEC
+1) (integer) 1
+2) (integer) 1
+```
+
+
+
+
