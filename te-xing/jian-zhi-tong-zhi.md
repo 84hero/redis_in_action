@@ -20,9 +20,11 @@
 对于每个修改数据库的操作，键空间通知都会发送两种不同类型的事件。
 
 比如说，对 0 号数据库的键 mykey 执行 DEL 命令时， 系统将分发两条消息， 相当于执行以下两个 PUBLISH 命令：
-
+```
 PUBLISH __keyspace@0__:mykey del
 PUBLISH __keyevent@0__:del mykey
+
+```
 订阅第一个频道 __keyspace@0__:mykey 可以接收 0 号数据库中所有修改键 mykey 的事件， 而订阅第二个频道 __keyevent@0__:del 则可以接收 0 号数据库中所有执行 del 命令的键。
 
 以 keyspace 为前缀的频道被称为键空间通知（key-space notification）， 而以 keyevent 为前缀的频道则被称为键事件通知（key-event notification）。
