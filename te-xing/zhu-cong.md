@@ -21,3 +21,8 @@ Redis 使用异步复制。 从 Redis 2.8 开始， 从服务器会以每秒一�
 复制功能可以单纯地用于数据冗余（data redundancy）， 也可以通过让多个从服务器处理只读命令请求来提升扩展性（scalability）： 比如说， 繁重的 SORT 命令可以交给附属节点去运行。
 
 可以通过复制功能来让主服务器免于执行持久化操作： 只要关闭主服务器的持久化功能， 然后由从服务器去执行持久化操作即可。
+
+
+## 更多主从配置
+
+[http://redisdoc.com/topic/replication.html](http://redisdoc.com/topic/replication.html)
