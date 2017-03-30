@@ -32,6 +32,12 @@
 * 集群
 * Sentinel
 
+## 规范
+
+* [键命名](kai-fa-gui-fan/keyming-ming.md)
+* [性能考虑](kai-fa-gui-fan/xing-neng-kao-lv.md)
+* [数据安全](kai-fa-gui-fan/shu-ju-an-quan.md)
+
 ## 场景
 
 * 内容管理-CMS
@@ -52,10 +58,4 @@
 * 地理位置-LBS
   * [周边商家](sheng-huo-fu-wu.md)
   * 摇一摇
-
-## 规范
-
-* [键命名](kai-fa-gui-fan/keyming-ming.md)
-* [性能考虑](kai-fa-gui-fan/xing-neng-kao-lv.md)
-* [数据安全](kai-fa-gui-fan/shu-ju-an-quan.md)
 
