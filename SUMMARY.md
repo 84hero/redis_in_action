@@ -27,7 +27,7 @@
 * [发布订阅](te-xing/fa-bu-ding-yue.md)
 * [事务](te-xing/shi-wu.md)
 * [持久化](te-xing/chi-jiu-hua.md)
-* 脚本执行
+* [脚本执行](te-xing/jiao-ben-zhi-xing.md)
 * 主从
 * 集群
 * Sentinel
