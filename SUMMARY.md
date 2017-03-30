@@ -30,7 +30,7 @@
 * [脚本执行](te-xing/jiao-ben-zhi-xing.md)
 * [主从](te-xing/zhu-cong.md)
 * [集群](te-xing/ji-qun.md)
-* Sentinel
+* [Sentinel](te-xing/sentinel.md)
 
 ## 规范
 
