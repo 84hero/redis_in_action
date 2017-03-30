@@ -34,3 +34,40 @@ SUBSCRIBE 和 UNSUBSCRIBE 的执行结果会以信息的形式返回， 客户�
 redis> SUBSCRIBE first second
 
     ```
+ 那么它将收到以下回复：
+
+```
+1) "subscribe"
+2) "first"
+3) (integer) 1
+
+1) "subscribe"
+2) "second"
+3) (integer) 2
+```
+
+如果在这时， 另一个客户端执行以下 PUBLISH 命令：
+```
+redis> PUBLISH second Hello
+```
+
+那么之前订阅了 second 频道的客户端将收到以下信息：
+```
+1) "message"
+2) "second"
+3) "hello"
+```
+当订阅者决定退订所有频道时， 它可以执行一个无参数的 UNSUBSCRIBE 命令：
+```
+redis> UNSUBSCRIBE
+```
+这个命令将接到以下回复：
+```
+1) "unsubscribe"
+2) "second"
+3) (integer) 1
+
+1) "unsubscribe"
+2) "first"
+3) (integer) 0   
+```  
