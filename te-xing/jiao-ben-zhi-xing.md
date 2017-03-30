@@ -39,3 +39,12 @@ redis.call() 和 redis.pcall() 两个函数的参数可以是任何格式良好(
 OK
 
 ```
+
+需要注意的是，上面这段脚本的确实现了将键 foo 的值设为 bar 的目的，但是，它违反了 EVAL 命令的语义，因为脚本里使用的所有键都应该由 KEYS 数组来传递，就像这样：
+
+```
+> eval "return redis.call('set',KEYS[1],'bar')" 1 foo
+OK
+
+```
+
