@@ -29,7 +29,7 @@
 * [持久化](te-xing/chi-jiu-hua.md)
 * [脚本执行](te-xing/jiao-ben-zhi-xing.md)
 * [主从](te-xing/zhu-cong.md)
-* 集群
+* [集群](te-xing/ji-qun.md)
 * Sentinel
 
 ## 规范
