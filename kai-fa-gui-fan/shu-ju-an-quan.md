@@ -10,7 +10,7 @@
 
 * **IP地址**
 
-修改 Redis 的配置文件 **redis.conf**，将服务器绑定IP设置为私有或者特定IP地址
+修改 Redis 的配置文件 **redis.conf**，将服务绑定IP设置为私有或者特定IP地址
 
 ```Redis
 bind 127.0.0.1
