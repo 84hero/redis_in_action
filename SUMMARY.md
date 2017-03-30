@@ -23,7 +23,7 @@
 
 ## 进阶
 
-* [键值通知](te-xing/jian-zhi-tong-zhi.md)
+* [键空间通知](te-xing/jian-zhi-tong-zhi.md)
 * [发布订阅](te-xing/fa-bu-ding-yue.md)
 * [事务](te-xing/shi-wu.md)
 * [持久化](te-xing/chi-jiu-hua.md)
