@@ -71,3 +71,7 @@ redis> UNSUBSCRIBE
 2) "first"
 3) (integer) 0   
 ```  
+
+## 更多信息
+
+[http://redisdoc.com/topic/pubsub.html](http://redisdoc.com/topic/pubsub.html)
