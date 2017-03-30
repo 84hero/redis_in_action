@@ -113,4 +113,6 @@ INCR a b c
 -ERR wrong number of arguments for 'incr' command
 
 ```
+因为调用 INCR 命令的参数格式不正确， 所以这个 INCR 命令入队失败。
+
 
